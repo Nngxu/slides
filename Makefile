@@ -6,7 +6,7 @@ live:
 
 static:
 	@echo "build staitc slides.md..."
-	@reveal-md slides.md --static ./site/ --assets-dir assets
+	@reveal-md slides.md --static ./docs/ --assets-dir assets
 
 clean:
 	rm -rf site
