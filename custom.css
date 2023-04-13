@@ -43,6 +43,7 @@
   border-radius: 3mm;
   padding: 20px;
   line-height: 28px;
+  background-color: rgb(238, 238, 238);
 }
 .reveal pre code table {
   font-size: inherit;

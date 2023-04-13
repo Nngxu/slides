@@ -9,5 +9,5 @@ static:
 	@reveal-md slides.md --static ./docs/ --assets-dir assets
 
 clean:
-	rm -rf site
+	rm -rf docs 
 
