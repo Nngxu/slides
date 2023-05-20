@@ -1,10 +1,11 @@
-@import url(https://cdn.ningxu.top/LXGW/lxgwscreen.css);
-@import url(https://fonts.cdnfonts.com/css/cascadia-code);
+@import url(https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;600&family=Source+Code+Pro&family=JetBrains+Mono:ital,wght@0,300;0,400;0,600;0,700;1,400;1,700);
+@import url(https://cdn.jsdelivr.net/npm/lxgw-wenkai-screen-webfont@1.1.0/style.css);
 
+/* 如果slides中文占主要 使用JetBrains更好看*/
 :root {
-  --r-main-font: "LXGW WenKai Screen", "Cascadia Code", sans-serif;
-  --r-heading-font: "LXGW WenKai Screen", "Cascadia Code", sans-serif;
-  --r-code-font: "Cascadia Code", "LXGW WenKai Screen", sans-serif;
+  --r-main-font: "JetBrains Mono", "LXGW WenKai Screen", sans-serif;
+  --r-heading-font: "JetBrains Mono", "LXGW WenKai Screen", sans-serif;
+  --r-code-font: "JetBrains Mono", "LXGW WenKai Screen", sans-serif;
 }
 
 .reveal .slide-number {
@@ -43,7 +44,6 @@
   border-radius: 3mm;
   padding: 20px;
   line-height: 28px;
-  background-color: rgb(238, 238, 238);
 }
 .reveal pre code table {
   font-size: inherit;
@@ -88,7 +88,7 @@
 }
 .reveal h2 {
   font-size: 48px;
-  border-bottom: 2px solid rgb(28, 30, 220);
+  border-bottom: 2px solid rgb(0, 63, 163);
   padding-bottom: 5px;
 }
 .reveal h3 { font-size: 1.15em; }
@@ -179,6 +179,44 @@ section > table th {
 
 html.print-pdf .reveal pre code {
   font-family: var(--r-code-font) !important;
+}
+
+/**
+ * Modified from https://github.com/sivan/heti
+ */
+
+.reveal heti-spacing {
+  display: inline;
+}
+
+.reveal heti-spacing + sup,
+.reveal heti-spacing + sub {
+  margin-inline-start: 0;
+}
+
+.reveal .heti-spacing {
+  font-size: 0.5em;
+  vertical-align: top;
+}
+
+.reveal .heti-spacing-start {
+  margin-inline-end: 0.25em;
+}
+
+.reveal .heti-spacing-end {
+  margin-inline-start: 0.25em;
+}
+
+.reveal heti-adjacent {
+  display: inline;
+}
+
+.reveal .heti-adjacent-half {
+  margin-inline-end: -0.5em;
+}
+
+.reveal .heti-adjacent-quarter {
+  margin-inline-end: -0.25em;
 }
 
 .reveal .slide-number {

@@ -46,6 +46,29 @@ Note:hhhh
 
 <!--v-->
 
+## multi-column
+
+<div class="mul-cols">
+
+<div class="col">
+
+<div style="text-align: center; margin-top: 0.5em;">
+<img src="photo/img.png" width="75%" style="margin: 0 auto;">
+</div>
+
+</div>
+
+<div class="col">
+
+<div style="text-align: center; margin-top: 0.5em;">
+<img src="photo/img.png" width="75%" style="margin: 0 auto;">
+</div>
+
+</div>
+</div>
+
+<!--v-->
+
 ## list
 
 - ordered list
@@ -57,6 +80,8 @@ Note:hhhh
 
 - unordered list
   - XXX
+
+
 
 
 <!--v-->
@@ -229,7 +254,7 @@ int main(const char *args) {
 
 <div style="display: flex; align-items: center; justify-content: center; height: 70vh;">
   <video width="100%" height="100%" controls="controls">
-    <source src="./video/tartarus.mp4" type="video/mp4">
+    <source src="https://www.bilibili.com/video/BV1aL41127VG/?spm_id_from=333.1007.tianma.1-1-1.click&vd_source=fc9fc56cc5852d106cdbdc0eede2d530" type="video/mp4">
   </video>
 </div>
 
@@ -244,6 +269,7 @@ int main(const char *args) {
 <img src="photo/img.png" width="75%" style="margin: 0 auto;">
 </div>
 
+
 <!--s-->
 
 <div class="middle center">
@@ -251,11 +277,14 @@ int main(const char *args) {
 
 
 
-# Part.2 XXX 
+# Part.2 Add a background iframe 
 
 </div>
 </div>
 
+<!--v-->
+
+<!-- .element: data-background-iframe="https://www.4399.com/" -->
 <!--s-->
 
 <div class="middle center">

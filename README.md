@@ -24,4 +24,4 @@
 4. 部署方法:
 - 构建完成后，push到自己的仓库。
 - 然后在setting->Pages中选择部署目录为:main && /docs即可完成部署。
-部署效果见:https://nngxu.github.io/slides/#/
+部署效果见:https://nngxu.github.io/slides/
