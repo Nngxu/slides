@@ -14,6 +14,11 @@
   background-color: rgba(0, 0, 0, .3);
 }
 
+.reveal .slide-number {
+  left: 8px;
+  right: unset;
+}
+
 .reveal .slides {
   border: 1.5px #ddd solid;
   border-radius: 7px;
@@ -179,4 +184,8 @@ section > table th {
 
 html.print-pdf .reveal pre code {
   font-family: var(--r-code-font) !important;
+}
+
+.katex {
+  font-size: 1em;
 }
